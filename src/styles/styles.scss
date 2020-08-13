@@ -1,3 +1,7 @@
 @import 'variables.scss';
-@import 'placeholders.scss';
 @import 'base.scss';
+@import '../components/Button/Button.scss';
+@import '../components/ImageGallery/ImageGallery.scss';
+@import '../components/ImageGallery/ImageGalleryItem/ImageGalleryItem.scss';
+@import '../components/Modal/Modal.scss';
+@import '../components/Searchbar/Searchbar.scss';

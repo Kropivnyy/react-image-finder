@@ -13,9 +13,11 @@ class Searchbar extends Component {
   submitHandler = event => {
     event.preventDefault();
 
-    this.props.onSubmit(this.state.query);
+    if (this.state.query) {
+      this.props.onSubmit(this.state.query);
 
-    this.setState({ query: '' });
+      this.setState({ query: '' });
+    }
   };
 
   render() {
